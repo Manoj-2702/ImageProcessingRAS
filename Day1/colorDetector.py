@@ -4,6 +4,7 @@ import numpy as np
 cap=cv2.VideoCapture(0)
 lwr_blue=np.array([100,100,100])
 upper_blue=np.array([10,255,255])
+lwr_red=np.array([0,100,100])
 
 while True:
     ret,frame=cap.read()
